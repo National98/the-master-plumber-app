@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="hero">
+  <div>
+    <h1>Agreement for Services</h1>
+    <p>{{job.job_number}} · {{job.customer_name}} · {{job.job_type}}</p>
+  </div>
+  <div class="buttons">
+    <a class="btn ghost" href="/jobs/{{job.id}}/scope">Edit Scope</a>
+    {% if agreement and agreement.signature_name %}<a class="btn" href="/jobs/{{job.id}}/agreement.pdf">Agreement PDF</a>{% endif %}
+  </div>
+</div>
+
+<form method="post" class="panel" id="agreementForm">
+  <div class="agreement-summary">
+    <div><b>Customer</b><br>{{job.customer_name}}</div>
+    <div><b>Service Property</b><br>{{job.address}}, {{job.city}} {{job.state}} {{job.zip}}</div>
+    <div><b>Agreement Date</b><br>{{ agreement.signed_at[:10] if agreement and agreement.signed_at else '' }}</div>
+    <div><b>Contractor</b><br>{{biz.business_name}} · {{biz.license}}</div>
+  </div>
+
+  <h2>Authorized Scope & Price</h2>
+  <p class="note">Only the services listed below are authorized. Any additional work requires customer approval before it is added to the job, except as specifically described in the terms below.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Service</th><th>Included Scope</th><th>Qty</th><th>Price</th></tr></thead>
+      <tbody>
+      {% for s in services %}
+        <tr>
+          <td><b>{{s.code}}</b><br>{{s.description}}</td>
+          <td>{{s.scope_text}}</td>
+          <td>{{s.quantity}}</td>
+          <td>${{'%.2f'|format(s.line_total)}}</td>
+        </tr>
+      {% else %}
+        <tr><td colspan="4">No services have been priced. Go back to Price & Scope.</td></tr>
+      {% endfor %}
+      </tbody>
+      <tfoot><tr><td colspan="3"><b>Approved Total</b></td><td><b>${{'%.2f'|format(total)}}</b></td></tr></tfoot>
+    </table>
+  </div>
+
+  <h2>Terms & Conditions</h2>
+  <div class="terms">
+    {% for para in terms.split('\n\n') %}<p>{{para}}</p>{% endfor %}
+  </div>
+
+  <h2>Customer Acknowledgments</h2>
+  <div class="checks stacked">
+    <label><input type="checkbox" name="agree_scope" {{'checked' if agreement and agreement.agree_scope else ''}} required> I authorize The Master Plumber to perform only the services and scope described above.</label>
+    <label><input type="checkbox" name="agree_price" {{'checked' if agreement and agreement.agree_price else ''}} required> I approve the listed flat-rate price and understand that additional charges require my approval as described in this agreement.</label>
+    <label><input type="checkbox" name="agree_terms" {{'checked' if agreement and agreement.agree_terms else ''}} required> I have had the opportunity to review the Terms & Conditions and agree to them.</label>
+    {% if job.job_type == 'Independent Assessment' %}
+    <label><input type="checkbox" name="agree_no_referral" {{'checked' if agreement and agreement.agree_no_referral else ''}} required> I understand The Master Plumber does not perform the underground sewer/water-line repair or replacement and does not receive referral compensation from repair contractors.</label>
+    {% endif %}
+    <label><input type="checkbox" name="agree_limits" {{'checked' if agreement and agreement.agree_limits else ''}} required> I understand concealed conditions, code requirements, access problems, customer-requested changes, or work outside the listed scope may require a separately approved change.</label>
+    {% if job.job_type != 'Independent Assessment' %}
+    <label><input type="checkbox" name="agree_warranty" {{'checked' if agreement and agreement.agree_warranty else ''}} required> I understand The Master Plumber provides a one-year labor/workmanship warranty on the authorized plumbing work, while products and equipment carry their own manufacturer warranties.</label>
+    {% endif %}
+    <label><input type="checkbox" name="agree_esign" {{'checked' if agreement and agreement.agree_esign else ''}} required> I consent to use of my electronic signature and to receive an electronic copy of this agreement.</label>
+  </div>
+
+  <div class="rights-box">
+    <b>Customer Rights</b>
+    <p>This agreement does not waive any nonwaivable right provided by law. If a legally required cancellation or rescission right applies to this transaction, you retain that right. A separate legally required emergency request or waiver, if applicable, must be documented separately.</p>
+  </div>
+
+  <h2>Customer Signature</h2>
+  <p class="note"><b>Customer:</b> Review the scope, price, terms, and acknowledgments above. Then sign directly in the box below using your finger or stylus.</p>
+  <div class="signature-box">
+    <canvas id="sig" width="700" height="190"></canvas>
+    <div><button type="button" class="btn ghost" id="clearSig">Clear</button></div>
+  </div>
+  <input type="hidden" name="signature_data" id="signatureData">
+  <label>Printed / typed name<input name="signature_name" value="{{agreement.signature_name if agreement else job.customer_name}}" required></label>
+  {% if agreement and agreement.signature_path %}<p class="note">A signature is already on file. Saving without redrawing keeps the existing signature.</p>{% endif %}
+  <p class="note">By signing, the customer confirms authority to approve work at the service property and acknowledges receipt or availability of a copy of this agreement.</p>
+
+  <div class="actions">
+    <button>Sign & Save Agreement</button>
+    <a class="btn ghost" href="/jobs/{{job.id}}">Back to Job</a>
+  </div>
+</form>
+{% endblock %}

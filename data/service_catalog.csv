@@ -1,0 +1,196 @@
+service_code,service_name,category,tier,default_price,estimated_hours,parts_allowance,is_add_on,active,description
+D-100,Standard diagnostic / service call,Diagnostics,Standard,149,0.75,0,0,1,Up to 45 minutes on site; visual diagnosis and flat-rate options.
+D-110,Extended diagnostic,Diagnostics,Standard,249,1.5,10,0,1,Up to 90 minutes troubleshooting; excludes destructive access.
+D-120,Second fixture diagnostic,Diagnostics,Standard,95,0.4,0,1,1,Additional fixture/system evaluated during same visit.
+D-130,After-hours dispatch premium,Diagnostics,Standard,225,0,0,1,1,Added to applicable repair for evening/weekend/holiday response.
+D-140,Freeze-event emergency dispatch premium,Diagnostics,Standard,325,0,0,1,1,Priority dispatch during severe freeze/high-demand event.
+D-150,Written plumbing condition summary,Diagnostics,Standard,175,0.5,0,0,1,Brief written findings for ordinary plumbing issue; excludes sewer/water service-line second-opinion report.
+T-100,Running toilet — minor repair,Toilets,Standard,225,1,35,0,1,Replace flapper or fill valve; adjust tank components.
+T-110,Complete tank rebuild,Toilets,Standard,349,1.5,75,0,1,"Fill valve, flush valve/seal, flapper and tank hardware as applicable."
+T-120,Toilet supply line replacement,Toilets,Standard,149,0.5,20,0,1,Replace accessible toilet supply connector.
+T-130,Toilet angle stop replacement,Toilets,Standard,249,0.9,35,0,1,Replace accessible stop valve serving toilet.
+T-140,Toilet reset — sound flange,Toilets,Standard,325,1.5,35,0,1,Pull/reset existing toilet with new seal and closet bolts.
+T-150,Closet flange minor repair,Toilets,Standard,449,2,65,0,1,Repair ring/minor flange correction without major subfloor work.
+T-160,Customer-supplied toilet install,Toilets,Good,425,2,40,0,1,Remove existing and install customer-supplied standard toilet; disposal extra.
+T-170,Contractor-grade toilet supplied & installed,Toilets,Better,675,2,220,0,1,Standard elongated 1.28 GPF toilet; accessible like-for-like install.
+T-180,Premium toilet supplied & installed,Toilets,Best,995,2.25,425,0,1,Premium comfort-height elongated toilet; accessible like-for-like install.
+T-190,Toilet seat replacement,Toilets,Standard,125,0.35,35,1,1,Install standard customer-selected seat.
+T-200,Toilet disposal / haul-away,Toilets,Standard,125,0.25,35,1,1,Remove old toilet from property.
+T-210,Install bidet seat — non-electric,Toilets,Standard,225,0.75,20,0,1,Install customer-supplied non-electric bidet seat/attachment.
+T-220,"Install bidet seat — electric, plumbing only",Toilets,Standard,275,1,30,0,1,Plumbing hookup of customer-supplied electric bidet seat; electrical outlet excluded.
+T-230,Replace toilet shutoff + supply bundle,Toilets,Standard,199,0.7,50,1,1,Replace 1/4-turn stop and stainless connector during toilet work.
+T-240,Dual-flush conversion kit,Toilets,Standard,299,1.25,65,0,1,Install compatible dual-flush conversion kit.
+F-100,Bathroom faucet cartridge repair,Faucets & Sinks,Standard,299,1.25,55,0,1,Replace common cartridge/stem where serviceable.
+F-110,Kitchen faucet cartridge repair,Faucets & Sinks,Standard,325,1.25,65,0,1,Replace common cartridge/valve components where serviceable.
+F-120,Customer-supplied lavatory faucet install,Faucets & Sinks,Good,349,1.5,30,0,1,Install standard customer-supplied bathroom faucet; existing stops usable.
+F-130,Contractor-grade lavatory faucet supplied & installed,Faucets & Sinks,Better,525,1.5,150,0,1,Standard quality faucet with new connectors.
+F-140,Premium lavatory faucet supplied & installed,Faucets & Sinks,Best,775,1.75,300,0,1,Premium finish faucet with new connectors.
+F-150,Customer-supplied kitchen faucet install,Faucets & Sinks,Good,425,2,40,0,1,Install standard customer-supplied kitchen faucet.
+F-160,Contractor-grade kitchen faucet supplied & installed,Faucets & Sinks,Better,725,2,225,0,1,Standard pull-down faucet with new connectors.
+F-170,Premium kitchen faucet supplied & installed,Faucets & Sinks,Best,1095,2.25,450,0,1,Premium pull-down/touch-ready faucet; electrical features excluded unless included.
+F-180,Bathroom sink drain / pop-up replacement,Faucets & Sinks,Standard,275,1.25,45,0,1,Replace accessible lavatory pop-up assembly and tailpiece.
+F-190,Kitchen basket strainer replacement,Faucets & Sinks,Standard,275,1.25,40,0,1,Replace one standard basket strainer.
+F-200,Double-bowl sink strainers — pair,Faucets & Sinks,Standard,449,2,80,0,1,Replace both basket strainers in double-bowl sink.
+F-210,P-trap replacement — lavatory,Faucets & Sinks,Standard,199,0.75,25,0,1,Replace exposed tubular trap assembly.
+F-220,P-trap replacement — kitchen,Faucets & Sinks,Standard,249,1,35,0,1,Replace accessible tubular kitchen trap assembly.
+F-230,Sink supply line pair,Faucets & Sinks,Standard,175,0.6,30,1,1,Replace hot and cold braided connectors.
+F-240,Sink angle stop — one,Faucets & Sinks,Standard,225,0.75,30,0,1,Replace one accessible 1/4-turn stop.
+F-250,Sink angle stops — pair,Faucets & Sinks,Standard,375,1.25,60,0,1,Replace hot and cold accessible 1/4-turn stops.
+F-260,Customer-supplied lavatory sink replacement,Faucets & Sinks,Standard,575,2.5,65,0,1,Drop-in/undermount plumbing reconnection; countertop work excluded.
+F-270,Customer-supplied kitchen sink plumbing reconnect,Faucets & Sinks,Standard,475,2,75,0,1,Plumbing reconnection after sink/countertop replacement; fixture/countertop install excluded.
+G-100,Disposal jam / reset service,Garbage Disposals,Standard,199,0.75,0,0,1,Attempt safe unjam/reset; no replacement parts.
+G-110,Customer-supplied disposal replacement,Garbage Disposals,Good,349,1.5,30,0,1,Like-for-like replacement; existing wiring/discharge usable.
+G-120,1/2 HP disposal supplied & installed,Garbage Disposals,Good,525,1.5,150,0,1,Standard continuous-feed disposal.
+G-130,3/4 HP disposal supplied & installed,Garbage Disposals,Better,649,1.5,225,0,1,Upgraded continuous-feed disposal.
+G-140,1 HP premium disposal supplied & installed,Garbage Disposals,Best,849,1.75,350,0,1,Premium quieter/heavier-duty disposal.
+G-150,Dishwasher disposal air-gap/connection correction,Garbage Disposals,Standard,249,1,35,0,1,Correct accessible dishwasher-to-disposal hose/air-gap connection.
+V-100,Fixture shutoff valve replacement — one,Valves & Pressure,Standard,225,0.75,30,0,1,Replace accessible stop valve at fixture.
+V-110,Fixture shutoff valves — pair,Valves & Pressure,Standard,375,1.25,60,0,1,Replace accessible hot/cold fixture stops.
+V-120,Main interior shutoff valve — accessible,Valves & Pressure,Standard,649,2.5,95,0,1,Replace accessible full-port main shutoff; service can be isolated normally.
+V-130,Interior branch ball valve,Valves & Pressure,Standard,449,1.75,65,0,1,Add/replace accessible 1/2–3/4 in branch isolation valve.
+V-140,Pressure test / static pressure check,Valves & Pressure,Standard,175,0.75,0,0,1,Measure static/dynamic pressure and document result.
+V-150,PRV replacement — accessible,Valves & Pressure,Standard,775,2.5,225,0,1,"Replace standard residential pressure-reducing valve, like-for-like."
+V-160,PRV + main shutoff bundle,Valves & Pressure,Standard,1095,3.5,320,0,1,Replace accessible PRV and main full-port shutoff together.
+V-170,Thermal expansion tank replacement,Valves & Pressure,Standard,349,1.25,85,0,1,Replace potable expansion tank at accessible water heater; support included.
+V-180,Water hammer arrestor — one,Valves & Pressure,Standard,275,1,45,0,1,Install accessible mechanical arrestor at appliance/fixture.
+V-190,Water hammer arrestors — pair,Valves & Pressure,Standard,399,1.25,90,0,1,Install pair at washing machine or similar accessible location.
+V-200,Washing machine valve box rebuild — valves only,Valves & Pressure,Standard,575,2,100,0,1,Replace accessible hot/cold valves; wall repair excluded.
+V-210,Ice-maker stop valve replacement,Valves & Pressure,Standard,225,0.75,30,0,1,Replace accessible stop valve serving refrigerator/ice maker.
+P-100,Accessible copper leak repair — minor,Pipe Repairs,Standard,349,1.5,45,0,1,One localized accessible leak; up to 12 in pipe replacement.
+P-110,Accessible PEX leak repair — minor,Pipe Repairs,Standard,299,1.25,35,0,1,One localized accessible leak; up to 18 in pipe replacement.
+P-120,Accessible CPVC leak repair — minor,Pipe Repairs,Standard,325,1.5,35,0,1,One localized accessible leak; up to 18 in pipe replacement.
+P-130,Accessible galvanized transition repair,Pipe Repairs,Standard,625,2.5,85,0,1,Localized accessible transition to approved material; larger repipe excluded.
+P-140,Replace exposed pipe section — up to 3 ft,Pipe Repairs,Standard,525,2,80,0,1,Accessible 1/2–3/4 in water distribution pipe.
+P-150,Replace exposed pipe section — 3 to 10 ft,Pipe Repairs,Standard,895,3.5,150,0,1,Accessible interior distribution piping.
+P-160,Open-wall leak repair — plumbing only,Pipe Repairs,Standard,625,2.5,75,0,1,Localized pipe repair after access is already open; drywall excluded.
+P-170,Create small drywall access + plumbing repair,Pipe Repairs,Standard,775,3,85,0,1,Limited access opening and localized repair; finish drywall/paint excluded.
+P-180,Install access panel,Pipe Repairs,Standard,199,0.75,35,1,1,Install standard access panel at existing/new opening.
+P-190,Replace corroded dielectric transition at fixture/equipment,Pipe Repairs,Standard,349,1.5,55,0,1,Replace accessible mixed-metal transition using brass/approved dielectric separation.
+P-200,Pipe support / hanger correction,Pipe Repairs,Standard,249,1,35,0,1,Correct up to 4 accessible pipe supports.
+P-210,Condensate/drain tubing repair — plumbing appliance,Pipe Repairs,Standard,225,1,25,0,1,Repair accessible small condensate/tubing leak.
+P-220,Laundry standpipe/trap repair — accessible,Pipe Repairs,Standard,625,2.5,75,0,1,Localized exposed laundry drain/trap correction; wall finish excluded.
+P-230,Tubular drain leak repair,Pipe Repairs,Standard,249,1,35,0,1,Repair/replace accessible tubular waste fittings under sink.
+P-240,Minor PVC/ABS drain repair — accessible,Pipe Repairs,Standard,475,2,65,0,1,Localized accessible branch DWV repair; no main sewer excavation.
+P-250,Pipe insulation — first 10 ft,Pipe Repairs,Standard,225,1,40,1,1,Insulate accessible hot/cold water piping.
+P-260,Additional pipe insulation — per 10 ft,Pipe Repairs,Standard,125,0.5,40,1,1,Additional accessible pipe insulation during same visit.
+S-100,Showerhead replacement — customer supplied,Shower & Tub,Standard,149,0.5,10,0,1,Replace standard showerhead.
+S-110,Shower arm + head replacement — customer supplied,Shower & Tub,Standard,225,0.9,20,0,1,Replace accessible arm and head.
+S-120,Tub spout replacement,Shower & Tub,Standard,225,0.75,45,0,1,Replace standard slip-on/threaded tub spout.
+S-130,Single-handle shower cartridge replacement,Shower & Tub,Standard,399,1.5,95,0,1,Replace common cartridge in serviceable valve.
+S-140,Two/three-handle tub/shower stem repair,Shower & Tub,Standard,525,2,120,0,1,Repair/replace common accessible stems/seats.
+S-150,Shower valve trim replacement — compatible trim,Shower & Tub,Standard,325,1,100,0,1,Replace compatible trim only; rough valve unchanged.
+S-160,Shower valve replacement — rear access available,Shower & Tub,Standard,1095,4,225,0,1,Replace pressure-balance rough valve through existing rear access; finish wall excluded.
+S-170,Shower valve replacement — access creation required,Shower & Tub,Standard,1395,5,250,0,1,"Create limited rear access, replace valve; drywall finish excluded."
+S-180,Tub waste/overflow repair — accessible,Shower & Tub,Standard,625,2.5,110,0,1,Repair/replace accessible waste/overflow components.
+S-190,Tub waste/overflow replacement,Shower & Tub,Standard,849,3.5,160,0,1,Replace standard assembly where access permits.
+S-200,Handheld shower conversion kit,Shower & Tub,Standard,249,1,25,0,1,Install customer-supplied handheld diverter/head kit.
+S-210,Premium showerhead supplied & installed,Shower & Tub,Better,299,0.6,125,0,1,Quality multi-function showerhead.
+S-220,Tub drain stopper replacement,Shower & Tub,Standard,199,0.75,35,0,1,Replace standard stopper/trim when serviceable.
+S-230,Shower leak diagnostic — valve/trim area,Shower & Tub,Standard,199,1,0,0,1,Diagnostic focused on shower valve/trim; destructive access excluded.
+S-240,Shower riser/arm leak repair — accessible,Shower & Tub,Standard,275,1.25,35,0,1,Repair accessible threaded shower riser/arm connection.
+WH-100,Tank water heater diagnostic,Water Heaters,Standard,199,1,0,0,1,Diagnostic of conventional gas/electric tank heater.
+WH-110,Gas control / thermocouple diagnostic & minor repair,Water Heaters,Standard,399,1.5,75,0,1,Minor common gas control/thermocouple service where parts are available.
+WH-120,Electric element replacement — one,Water Heaters,Standard,399,2,45,0,1,Replace one standard element; tank drain/refill included.
+WH-130,Electric elements — pair,Water Heaters,Standard,525,2.5,90,0,1,Replace upper/lower standard elements.
+WH-140,Electric thermostat replacement — one,Water Heaters,Standard,325,1.5,45,0,1,Replace one thermostat.
+WH-150,Electric thermostat pair,Water Heaters,Standard,449,2,80,0,1,Replace both thermostats.
+WH-160,T&P relief valve replacement,Water Heaters,Standard,299,1.25,45,0,1,Replace accessible relief valve and reconnect compliant discharge if reusable.
+WH-170,Drain valve replacement,Water Heaters,Standard,325,1.5,35,0,1,Replace accessible drain valve; tank drain/refill included.
+WH-180,Anode rod replacement — standard access,Water Heaters,Standard,349,1.5,65,0,1,Replace accessible standard anode rod; clearance available.
+WH-190,Powered anode rod upgrade,Water Heaters,Best,549,1.75,175,0,1,Install compatible powered anode; electrical receptacle required nearby.
+WH-200,Expansion tank replacement,Water Heaters,Standard,349,1.25,85,0,1,Replace 2-gal potable expansion tank with support.
+WH-210,Cold-water shutoff upgrade,Water Heaters,Standard,275,1,45,1,1,Replace/add full-port ball valve at accessible heater.
+WH-220,Stainless connector pair + brass transitions,Water Heaters,Standard,325,1.25,95,1,1,Replace hot/cold connections using brass nipples/transitions and corrugated stainless connectors.
+WH-230,Water heater drain pan,Water Heaters,Standard,175,0.6,45,1,1,Install pan under heater where accessible; drain piping excluded.
+WH-240,T&P discharge correction,Water Heaters,Standard,299,1.25,45,1,1,Correct accessible 3/4 in discharge piping to compliant termination where practical.
+WH-250,Gas sediment trap / connector refresh,Water Heaters,Standard,325,1.25,65,1,1,Replace accessible gas flex connector and sediment trap components.
+WH-260,Basic 40-gal electric tank replacement — supplied & installed,Water Heaters,Good,1495,4,650,0,1,Like-for-like standard electric tank; normal access; permit/major code upgrades extra.
+WH-270,Basic 50-gal electric tank replacement — supplied & installed,Water Heaters,Better,1645,4.5,750,0,1,Like-for-like standard electric tank; normal access.
+WH-280,Premium 50-gal electric tank replacement,Water Heaters,Best,1995,5,950,0,1,Premium/high-recovery electric tank; normal access.
+WH-290,Basic 40-gal gas tank replacement — supplied & installed,Water Heaters,Good,1695,4.5,750,0,1,Like-for-like atmospheric gas tank; normal vent/gas configuration.
+WH-300,Basic 50-gal gas tank replacement — supplied & installed,Water Heaters,Better,1845,5,850,0,1,Like-for-like atmospheric gas tank; normal vent/gas configuration.
+WH-310,Premium 50-gal gas tank replacement,Water Heaters,Best,2295,5.25,1150,0,1,Premium/high-recovery atmospheric gas tank; normal access.
+WH-320,Customer-supplied electric tank replacement,Water Heaters,Good,895,4,150,0,1,Labor + standard connection materials; like-for-like.
+WH-330,Customer-supplied gas tank replacement,Water Heaters,Good,995,4.5,185,0,1,Labor + standard connection materials; like-for-like.
+WH-340,Water heater haul-away,Water Heaters,Standard,150,0.5,40,1,1,Remove/dispose old tank from property.
+WH-350,Difficult basement/stair access,Water Heaters,Standard,275,1.5,0,1,1,Additional labor for difficult tank removal/install; one helper allowance.
+WH-360,Second technician/helper — water heater,Water Heaters,Standard,250,1.5,0,1,1,Additional helper labor when site conditions require.
+SP-100,Sump pump diagnostic,Sump Pumps,Standard,199,1,0,0,1,"Test pump, float, check valve and discharge at accessible pit."
+SP-110,Customer-supplied sump pump replacement,Sump Pumps,Good,375,1.5,45,0,1,Replace standard submersible pump in accessible pit.
+SP-120,1/3 HP sump pump supplied & installed,Sump Pumps,Good,575,1.5,200,0,1,Standard quality pump and check valve.
+SP-130,1/2 HP premium sump pump supplied & installed,Sump Pumps,Better,795,1.75,325,0,1,Premium pump and quiet check valve.
+SP-140,Battery backup sump system — add-on,Sump Pumps,Best,1495,4,650,0,1,Install backup pump/controller/battery where pit and electrical conditions permit.
+SP-150,Sump check valve replacement,Sump Pumps,Standard,225,0.75,45,0,1,Replace accessible check valve.
+SP-160,Sump discharge minor repair,Sump Pumps,Standard,349,1.5,55,0,1,Repair accessible interior discharge piping up to 3 ft.
+SP-170,High-water alarm,Sump Pumps,Standard,249,0.75,75,0,1,Install standalone high-water alarm at accessible pit.
+A-100,Washing machine hose set replacement,Appliance Hookups,Standard,175,0.5,45,0,1,Replace hot/cold hoses with stainless braided set.
+A-110,Washing machine hookup,Appliance Hookups,Standard,199,0.75,25,0,1,Connect customer-supplied washer to existing valves/drain.
+A-120,Dishwasher plumbing hookup,Appliance Hookups,Standard,349,1.5,45,0,1,Connect customer-supplied dishwasher to existing water/drain; electrical/cabinet work excluded.
+A-130,Refrigerator/ice maker hookup,Appliance Hookups,Standard,199,0.75,30,0,1,Connect customer-supplied refrigerator to existing stop.
+A-140,New refrigerator branch connection — accessible,Appliance Hookups,Standard,625,2.5,95,0,1,Add accessible tee/stop and line from nearby cold branch; up to 10 ft.
+A-150,Gas range hookup — existing approved outlet,Appliance Hookups,Standard,275,1,50,0,1,Connect customer-supplied range to existing approved gas shutoff; leak test.
+A-160,Gas dryer hookup — existing approved outlet,Appliance Hookups,Standard,275,1,50,0,1,Connect customer-supplied dryer to existing approved gas shutoff; leak test.
+A-170,Utility sink hookup — existing rough-ins,Appliance Hookups,Standard,575,2.5,75,0,1,Connect customer-supplied utility sink/faucet to existing accessible rough-ins.
+E-100,Hose bib washer/packing repair,Exterior Plumbing,Standard,199,0.75,20,0,1,Minor serviceable hose bib repair.
+E-110,Standard hose bib replacement — accessible,Exterior Plumbing,Standard,349,1.5,55,0,1,Replace standard wall hydrant/hose bib with accessible interior connection.
+E-120,Frost-free sillcock replacement — accessible,Exterior Plumbing,Standard,475,2,85,0,1,Replace standard frost-free sillcock with accessible interior connection.
+E-130,Exterior shutoff valve — accessible,Exterior Plumbing,Standard,299,1.25,45,0,1,Add/replace accessible interior isolation valve serving exterior faucet.
+E-140,Anti-siphon/vacuum breaker replacement,Exterior Plumbing,Standard,125,0.4,20,0,1,Replace hose-thread vacuum breaker where serviceable.
+E-150,Yard hydrant diagnostic,Exterior Plumbing,Standard,225,1,0,0,1,Diagnose accessible yard hydrant; underground excavation excluded.
+E-160,Yard hydrant head/service repair,Exterior Plumbing,Standard,375,1.5,60,0,1,Repair serviceable hydrant head/packing; underground line work excluded.
+E-170,Winterize exterior hose bibs — up to 4,Exterior Plumbing,Standard,225,1,20,0,1,Shut off/drain accessible exterior lines where dedicated valves exist.
+GP-100,Gas leak diagnostic — accessible interior,Gas Piping,Standard,249,1.25,10,0,1,Electronic/bubble test accessible interior appliance piping; utility emergency response excluded.
+GP-110,Appliance gas shutoff replacement,Gas Piping,Standard,325,1.25,45,0,1,Replace accessible approved gas cock at appliance.
+GP-120,Gas connector replacement,Gas Piping,Standard,225,0.75,45,0,1,Replace approved appliance connector; leak test.
+GP-130,Minor accessible black iron gas repair,Gas Piping,Standard,675,2.5,90,0,1,Localized accessible repair up to 3 fittings; permit/testing extra if required.
+GP-140,Add gas sediment trap at appliance,Gas Piping,Standard,299,1.25,45,0,1,Add compliant sediment trap where accessible.
+GP-150,Gas pressure test preparation — small system,Gas Piping,Standard,625,2.5,40,0,1,Prepare/test small residential system when jurisdiction/utility requirements permit; permit fees extra.
+GP-160,Gas range relocation — short accessible extension,Gas Piping,Standard,995,3.5,140,0,1,Up to 6 ft accessible extension; sizing/permit/site conditions may change price.
+GP-170,Gas dryer relocation — short accessible extension,Gas Piping,Standard,995,3.5,140,0,1,Up to 6 ft accessible extension; sizing/permit/site conditions may change price.
+WQ-100,Basic water quality / hardness screening,Water Quality,Standard,175,0.75,15,0,1,On-site screening; not laboratory certification.
+WQ-110,Customer-supplied under-sink filter install,Water Quality,Standard,349,1.5,40,0,1,Install standard under-sink filtration to existing sink cold line.
+WQ-120,Under-sink filter supplied & installed,Water Quality,Better,625,1.75,225,0,1,Standard dual-stage system.
+WQ-130,Customer-supplied reverse osmosis install,Water Quality,Standard,525,2.5,65,0,1,Install standard under-sink RO system; drain saddle/air gap as applicable.
+WQ-140,Whole-house filter housing replacement,Water Quality,Standard,575,2,160,0,1,Replace accessible standard whole-house cartridge housing.
+WQ-150,Whole-house filter supplied & installed,Water Quality,Better,1295,4,450,0,1,Standard high-flow cartridge housing with bypass where feasible.
+WQ-160,Customer-supplied softener plumbing hookup,Water Quality,Standard,895,3.5,150,0,1,Plumbing connection to existing suitable loop/drain; electrical excluded.
+WQ-170,Water softener supplied & installed — standard,Water Quality,Best,2195,5,950,0,1,Standard metered softener at existing suitable loop/drain; electrical excluded.
+DR-100,Lavatory drain clearing,Drain Service,Standard,249,1,15,0,1,Cable/hand auger accessible fixture branch; no main sewer.
+DR-110,Tub/shower drain clearing,Drain Service,Standard,275,1.25,15,0,1,Clear accessible fixture branch; no main sewer.
+DR-120,Kitchen sink drain clearing,Drain Service,Standard,325,1.5,20,0,1,Clear accessible kitchen branch; trap removal as needed.
+DR-130,Laundry branch drain clearing,Drain Service,Standard,325,1.5,20,0,1,Clear accessible laundry branch; no main sewer.
+DR-140,Toilet auger clearing,Drain Service,Standard,225,0.75,5,0,1,Clear localized toilet stoppage with closet auger.
+DR-150,Pull toilet for branch drain access,Drain Service,Standard,275,1.25,35,1,1,Pull/reset toilet to access branch drain; clearing billed separately.
+DR-160,Branch drain camera — short interior run,Drain Service,Standard,299,1.25,0,0,1,Camera accessible interior branch for documentation; not a main sewer second-opinion inspection.
+DR-170,Drain odor diagnostic,Drain Service,Standard,299,1.5,10,0,1,Investigate accessible traps/vents/fixtures; smoke testing not included.
+DR-180,Floor drain trap primer service,Drain Service,Standard,349,1.5,55,0,1,Service/replace accessible mechanical primer or restore water seal where applicable.
+DR-190,Main sewer repair/replacement,Drain Service,Excluded,0,0,0,0,0,Not offered under ordinary plumbing price book. Refer to independent assessment workflow only.
+M-100,Bar/prep faucet install — customer supplied,Misc. Fixtures,Standard,349,1.5,30,0,1,Install standard faucet at existing rough-in.
+M-110,Pot filler replacement — existing rough-in,Misc. Fixtures,Standard,375,1.5,25,0,1,Replace customer-supplied pot filler on existing sound connection.
+M-120,Laundry faucet replacement,Misc. Fixtures,Standard,349,1.5,35,0,1,Replace customer-supplied utility/laundry faucet.
+M-130,Pedestal sink plumbing reconnect,Misc. Fixtures,Standard,575,2.5,75,0,1,Reconnect customer-supplied pedestal sink at existing rough-ins.
+M-140,Vanity plumbing reconnect — single bowl,Misc. Fixtures,Standard,425,1.75,55,0,1,Reconnect one lavatory after vanity/countertop replacement.
+M-150,Vanity plumbing reconnect — double bowl,Misc. Fixtures,Standard,725,3,110,0,1,Reconnect two lavatories after vanity/countertop replacement.
+M-160,Mop/service sink faucet replacement,Misc. Fixtures,Standard,475,2,45,0,1,Replace customer-supplied wall-mount service faucet at existing rough-in.
+M-170,Trap seal primer install — accessible,Misc. Fixtures,Standard,675,2.5,120,0,1,Install mechanical primer where code/design permits and piping accessible.
+M-180,Backflow device replacement — small appliance type,Misc. Fixtures,Standard,425,1.5,95,0,1,Replace small accessible dual-check/vacuum breaker device; certified test not included.
+M-190,Small plumbing punch-list — up to 2 hours,Misc. Fixtures,Standard,449,2,40,0,1,Multiple minor items completed in same visit; materials extra beyond allowance.
+FR-100,Frozen accessible pipe thaw — first hour,Freeze & Emergency,Standard,299,1,20,0,1,Controlled thaw of accessible interior piping; repair extra.
+FR-110,Frozen pipe thaw — additional hour,Freeze & Emergency,Standard,195,1,0,1,1,Additional thaw time after first hour.
+FR-120,Burst PEX repair after freeze,Freeze & Emergency,Standard,399,1.5,45,0,1,One accessible localized burst repair.
+FR-130,Burst copper repair after freeze,Freeze & Emergency,Standard,449,1.75,55,0,1,One accessible localized burst repair.
+FR-140,Multiple freeze breaks — each additional,Freeze & Emergency,Standard,225,0.75,40,1,1,Additional accessible localized break during same visit.
+FR-150,Emergency isolation / make-safe,Freeze & Emergency,Standard,275,1,25,0,1,Stop active water loss and isolate affected fixture/branch; permanent repair extra.
+FR-160,Temporary bypass — accessible interior,Freeze & Emergency,Standard,675,2.5,100,0,1,Temporary potable bypass to restore limited service; permanent correction extra.
+FR-170,Post-freeze system inspection,Freeze & Emergency,Standard,249,1.5,0,0,1,Inspect accessible piping/fixtures after thaw event and document concerns.
+LC-100,Commercial fixture diagnostic,Light Commercial,Standard,225,1,0,0,1,Basic diagnostic for accessible light-commercial restroom/breakroom fixture.
+LC-110,Commercial flushometer rebuild,Light Commercial,Standard,425,1.5,95,0,1,Rebuild common manual flushometer where serviceable.
+LC-120,Commercial faucet repair,Light Commercial,Standard,399,1.5,85,0,1,Repair common manual commercial faucet/cartridge.
+LC-130,Commercial angle stop / supply repair,Light Commercial,Standard,299,1,55,0,1,Replace accessible heavy-duty stop/connector.
+LC-140,Property maintenance plumbing punch-list — half day,Light Commercial,Standard,895,4,75,0,1,Up to 4 billable hours on ordinary repairs; major materials extra.
+LC-150,Property maintenance plumbing punch-list — full day,Light Commercial,Standard,1695,8,125,0,1,Up to 8 billable hours on ordinary repairs; major materials extra.
+IA-100,Independent sewer/water line second-opinion assessment,Independent Assessments,Advisory,495,2.5,25,0,1,"Independent assessment only; no repair, excavation, referral, commission or financial interest in repair."
+IA-110,Additional locating during assessment,Independent Assessments,Advisory,195,1,10,1,1,Electronic locating performed as part of assessment when needed.
+IA-120,Additional camera time during assessment,Independent Assessments,Advisory,195,1,10,1,1,Additional camera inspection time beyond base scope.
+IA-130,Rush written assessment report,Independent Assessments,Advisory,175,0.75,0,1,1,Priority same-day/next-business-day report where scheduling permits.
+IA-140,Sewer/water line repair or replacement,Independent Assessments,Excluded,0,0,0,0,0,Not offered. Assessment is independent and The Master Plumber does not perform/profit from the repair.

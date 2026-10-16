@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{ title or 'The Master Plumber' }}</title><link rel="stylesheet" href="/static/app.css"></head><body>
+<header class="top"><a href="/" class="brand"><img src="/static/logo.png"><span>Service Agreement & CRM</span></a>{% if current_user %}<nav><a href="/">Dashboard</a><a href="/customers">Customers</a><a href="/jobs">Jobs</a><a href="/jobs/new">New Job</a><a href="/pricing">Pricing</a><a href="/settings">Settings</a><a href="/logout">Log out</a></nav>{% endif %}</header>
+<main class="wrap">{% block content %}{% endblock %}</main>
+<footer>{{ biz.business_name }} · {{ biz.phone }} · {{ biz.license }} · Just Honest Independent Advice.</footer>
+<script src="/static/app.js"></script></body></html>
